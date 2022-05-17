@@ -1,6 +1,65 @@
-.block {
-  height: 250px;
-  width: 250px;
-  background-color: red;
+@charset "UTF-8";
+.run {
+  height: 650px;
+  width: 100%;
+  background-image: url(../img/bg.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 21px 0 0 0;
+}
+
+.menu {
+  height: 54px;
+  width: 982px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.menu_comlogo {
+  height: 45px;
+  width: 251px;
+  background-image: url(../img/лого.png);
+}
+
+.menu_member {
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
+
+.menu_member .member_spltext {
+  font-weight: 400;
+}
+
+.menu_callus {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: 700;
+}
+
+.menu_callus_button {
+  background-color: #dd0000;
+  height: 32px;
+  width: 153px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: small;
+  border-radius: 8px;
 }
 /*# sourceMappingURL=style.css.map */

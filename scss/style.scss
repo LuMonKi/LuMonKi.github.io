@@ -1,5 +1,57 @@
-.block{
-    height: 250px;
-    width: 250px;
-    background-color: red;
+@mixin button {
+    background-color: rgb(221, 0, 0);
+    height: 32px;
+    width: 153px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size:small;
+    border-radius: 8px;
+}
+
+
+.run{
+    height: 650px;
+    width: 100%;
+    background-image: url(../img/bg.png);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 21px 0 0 0 ;
+}
+.menu{
+    height: 54px;
+    width: 982px;
+    display: flex;
+    justify-content: space-around;
+
+    &_comlogo{
+        height: 45px;
+        width: 251px;
+        background-image:url(../img/лого.png)
+    }
+    &_member{
+        text-align: center;
+        color: white;
+        font-weight: 500;
+
+        .member_spltext{
+            
+            font-weight: 400;
+        }
+    }
+    &_callus{
+        color:white;
+        display: flex;
+        flex-direction: column;
+        font-weight: 700;
+
+        &_button{
+            @include button;
+        }
+
+    }
+
+
+
 }
