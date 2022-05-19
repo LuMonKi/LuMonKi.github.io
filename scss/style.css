@@ -20,8 +20,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .menu_comlogo {
@@ -67,5 +68,34 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.header .container .row {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.header .container .row #ftext .htext1 {
+  text-align: end;
+  color: white;
+}
+
+.header .order_button {
+  background-color: #dd0000;
+  height: 32px;
+  width: 153px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: small;
+  border-radius: 8px;
+  height: 54px;
+  width: 303px;
+  font-size: medium;
 }
 /*# sourceMappingURL=style.css.map */

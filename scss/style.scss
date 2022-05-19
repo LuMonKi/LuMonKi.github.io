@@ -19,15 +19,12 @@
     flex-wrap: wrap;
     padding: 21px 0 0 0 ;
 
-
-
-    
 }
 .menu{
     height: 54px;
     width: 982px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
     &_comlogo{
         height: 45px;
@@ -58,4 +55,30 @@
 }
 .header{
     display: flex;
+    
+    .container{
+        .row{
+            flex-direction: column;
+            align-items: flex-end;
+
+            #ftext{
+                
+                .htext1{
+                    text-align: end;
+                    color: white;
+                }
+            }
+
+            
+        }
+    }
+
+    .order_button{
+        @include button;
+        height: 54px;
+        width: 303px;
+        font-size: medium;
+    }
+
+    
 }
