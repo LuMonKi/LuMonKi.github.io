@@ -7,6 +7,13 @@
     font-weight: 600;
     font-size:small;
     border-radius: 8px;
+    transition: all 0.1s;
+    
+}
+
+button:hover {
+    background-color: rgb(187, 0, 0);
+    transition: all 0.1s;
 }
 
 
@@ -19,6 +26,12 @@
     flex-wrap: wrap;
     padding: 21px 0 0 0 ;
 
+}
+.menu_block{
+    height: 54px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .menu{
     height: 54px;
@@ -55,21 +68,51 @@
 }
 .header{
     display: flex;
+    width: 1020px;
     
     .container{
         .row{
             flex-direction: column;
             align-items: flex-end;
+            padding-right: 0;
 
             #ftext{
                 
                 .htext1{
+                    text-transform:uppercase;
                     text-align: end;
                     color: white;
+                    font-size: 300%;
+
+                }
+
+                .subtext{
+                    color: white;
+                    font-size: 59%;
+                    font-weight: 400;
+                   
                 }
             }
+            #ftext2{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                color: white;
+            }
 
-            
+            .order_catalog{
+                color: white;
+                    
+                    
+            }
+           
+            .subimg{
+                margin-top: 60px;
+                margin-bottom: 60px;
+                height: 96px ;
+                width: 424px;
+            }
+          
         }
     }
 
@@ -79,6 +122,9 @@
         width: 303px;
         font-size: medium;
     }
-
+    .order_button:hover{
+        background-color: rgb(187, 0, 0);
+        transition: all 0.1s;
+    }
     
 }
