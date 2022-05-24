@@ -10,13 +10,6 @@
     transition: all 0.1s;
     
 }
-
-button:hover {
-    background-color: rgb(187, 0, 0);
-    transition: all 0.1s;
-}
-
-
 .run{
     height: 650px;
     width: auto;
@@ -59,12 +52,8 @@ button:hover {
 
     @media screen and (max-width:413px){
         &_comlogo{
-            
-            
+            // что то определенно нужно тут
         }
-
-       
-
     }
     @media screen and (max-width:595px){
         &_member{
@@ -79,6 +68,11 @@ button:hover {
 
         &_button{
             @include button;
+        }
+        
+        &_button:hover {
+            background-color: rgb(187, 0, 0);
+            transition: all 0.1s;
         }
 
     }

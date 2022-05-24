@@ -1,10 +1,4 @@
 @charset "UTF-8";
-button:hover {
-  background-color: #bb0000;
-  -webkit-transition: all 0.1s;
-  transition: all 0.1s;
-}
-
 .run {
   height: 650px;
   width: auto;
@@ -89,6 +83,12 @@ button:hover {
   font-weight: 600;
   font-size: small;
   border-radius: 8px;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+.menu_callus_button:hover {
+  background-color: #bb0000;
   -webkit-transition: all 0.1s;
   transition: all 0.1s;
 }
