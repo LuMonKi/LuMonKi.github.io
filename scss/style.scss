@@ -19,7 +19,7 @@ button:hover {
 
 .run{
     height: 650px;
-    width: 100%;
+    width: auto;
     background-image: url(../img/bg.png);
     display: flex;
     justify-content: center;
@@ -37,12 +37,14 @@ button:hover {
     height: 54px;
     width: 982px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 
     &_comlogo{
         height: 45px;
         width: 251px;
-        background-image:url(../img/лого.png)
+        background-image:url(../img/лого.png);
+        background-repeat: no-repeat;
     }
     &_member{
         text-align: center;
@@ -52,6 +54,21 @@ button:hover {
         .member_spltext{
             
             font-weight: 400;
+        }
+    }
+
+    @media screen and (max-width:413px){
+        &_comlogo{
+            
+            
+        }
+
+       
+
+    }
+    @media screen and (max-width:595px){
+        &_member{
+            font-size: 0%;
         }
     }
     &_callus{
@@ -86,6 +103,18 @@ button:hover {
 
                 }
 
+                @media screen and (max-width:779px) {
+                    .htext1{
+                        
+                        font-size: 220%;
+
+                    }
+                    
+                    .subtext{
+                        font-size: 50%;
+                    }
+                }
+
                 .subtext{
                     color: white;
                     font-size: 59%;
@@ -109,7 +138,7 @@ button:hover {
             .subimg{
                 margin-top: 60px;
                 margin-bottom: 60px;
-                height: 96px ;
+
                 width: 424px;
             }
           
