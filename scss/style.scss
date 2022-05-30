@@ -151,3 +151,48 @@
     }
     
 }
+
+
+.category{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px 0 0 25px;
+    background-color: rgb(255, 247, 247);
+
+    #category_row{
+        display: flex;
+        justify-content: center;
+        padding: 25px 0 0 0;
+    }
+  
+    
+    &_img{
+        height: 65px;
+        width: 70px;
+        margin: 25 0 0 0;
+
+    }
+    &_text{
+        width: 269px;
+
+        &_header{
+            font-size: 150%;
+            font-weight: 700;
+            
+        }
+
+    }
+
+    &_block{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    #category_col{
+        display: flex;
+        flex-direction: column;
+    }
+}
