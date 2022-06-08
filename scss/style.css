@@ -256,6 +256,10 @@
   margin: 0 0 0px 0;
 }
 
+.category_text_header_link {
+  color: red;
+}
+
 .category_block {
   display: -webkit-box;
   display: -ms-flexbox;
