@@ -226,6 +226,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   margin-top: 50px;
+  margin-bottom: 50px;
   background-color: white;
 }
 
@@ -286,5 +287,185 @@
       -ms-flex-align: center;
           align-items: center;
   padding: 0;
+}
+
+.consbackimg {
+  height: auto;
+  width: auto;
+}
+
+.consultation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 0 0 0 170px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../img/bg2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 680px;
+  width: 100%;
+}
+
+.consultation_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.consultation_input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.consultation_input_block {
+  height: 54px;
+  width: 303px;
+  border-radius: 9px;
+  background-color: white;
+  border: none;
+  margin: 8px 0 8px 0;
+}
+
+.consultation_spltext {
+  font-weight: 300;
+  color: white;
+}
+
+.consultation_h3 {
+  color: white;
+  font-size: 250%;
+}
+
+.consultation_button {
+  background-color: #dd0000;
+  height: 32px;
+  width: 153px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: small;
+  border-radius: 8px;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  height: 54px;
+  width: 303px;
+}
+
+.sell {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sell_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 25px 0 50px 0;
+}
+
+.sell_block_h4 {
+  margin-bottom: 25px;
+  font-size: 200%;
+  font-weight: 400;
+}
+
+.sell_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sell_block_one {
+  margin-bottom: 25px;
+}
+
+.sell_block_one_btn {
+  height: 52px;
+  width: 223px;
+  border-radius: 0%;
+  border-width: 2px;
+  border: solid;
+  border-width: 2px;
+  border-color: #cecece;
+  background-color: white;
+  color: #4b4b4b;
+  font-weight: 400;
+  font-size: 120%;
+  margin: 0 15px 0 15px;
+  -webkit-transform: skewX(-20deg);
+          transform: skewX(-20deg);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.sell_block_one_btn:hover {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background-color: #dd0000;
+  border-color: #dd0000;
+  color: white;
+  border-width: 2px;
+}
+
+.sell_block_one_btn span {
+  display: inline-block;
+  -webkit-transform: skewX(20deg);
+          transform: skewX(20deg);
+}
+
+.sell_blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #944646;
+  height: 442px;
+  width: 303px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -181,6 +181,7 @@
     justify-content: center;
     flex-direction: column;
     margin-top:50px;
+    margin-bottom: 50px;
     background-color: rgb(255, 255, 255);
 
     #category_row{
@@ -228,4 +229,141 @@
         
         
     }
+}
+.consbackimg{
+    
+    height: auto;
+    width: auto;
+}
+.consultation{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 0 0 170px;
+    align-items: center;
+    background-image:url(../img/bg2.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 680px;
+    width: 100%;
+    &_block{
+        display: flex;
+        flex-direction: column;
+    }
+    &_input{
+        display: flex;
+        flex-direction: column;
+        
+        
+
+        &_block{
+            height: 54px;
+            width: 303px;
+            border-radius:9px;
+            background-color:white;
+            border:none;
+            margin: 8px 0 8px 0;
+
+        }
+    }
+    &_spltext{
+        font-weight: 300;
+        color:white;
+    }
+    &_h3{
+        color:white;
+        font-size: 250%;
+
+
+    }
+    &_button{
+        @include button;
+        height: 54px;
+        width: 303px;
+
+    }
+}
+
+.sell{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    &_block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px 0 50px 0;
+       
+        
+        
+
+        &_h4{
+            margin-bottom: 25px;
+            font-size: 200%;
+            font-weight: 400;
+        }
+    }
+    
+    &_block{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+        &_one{
+
+            margin-bottom: 25px;
+            &_btn{
+            
+                height: 52px;
+                width: 223px;
+                border-radius: 0%;
+                border-width: 2px;
+                border: solid;
+                border-width: 2px;
+                border-color: rgb(206, 206, 206);
+                background-color: white;
+                color: rgb(75, 75, 75);
+                font-weight: 400;
+                font-size: 120%;
+                margin: 0 15px 0 15px;
+                transform: skewX(-20deg);
+                transition: all 0.3s;
+                
+    
+    
+            }
+            &_btn:hover{
+                transition: all 0.3s;
+                background-color: rgb(221, 0, 0);
+                border-color: rgb(221, 0, 0);
+                color: white;
+                border-width: 2px;
+                
+                
+                
+    
+            }
+            &_btn span{
+                display: inline-block;
+                transform: skewX(20deg);
+        
+            }
+        }
+
+    
+
+    }
+
+    &_blocks{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color:rgb(148, 70, 70);
+        height: 442px;
+        width: 303px;
+        
+    }
+
 }
