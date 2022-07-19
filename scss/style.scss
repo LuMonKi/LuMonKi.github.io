@@ -277,8 +277,24 @@
     }
     &_button{
         @include button;
+        background-color: #dd0000;
+        height: 32px;
+        width: 153px;
+        border: none;
+        color: white;
+        font-weight: 600;
+        font-size: small;
+        border-radius: 8px;
+        -webkit-transition: all 0.1s;
+        transition: all 0.1s;
         height: 54px;
         width: 303px;
+        font-size: medium;
+
+    }
+    &_button:hover{
+        background-color: rgb(187, 0, 0);
+        transition: all 0.1s;
 
     }
 }
@@ -288,6 +304,10 @@
     flex-direction: column;
     align-items: center;
     
+    &_container{
+        display: flex;
+        
+    }
     
     &_block{
         display: flex;
@@ -352,18 +372,47 @@
             }
         }
 
-    
+        &_price{
+            display: flex;
+            justify-content: center;
 
+            &_cost{
+                display: flex;
+                flex-direction: column;
+
+                &_nw{
+                    color: aqua;
+                }
+            }
+        }
     }
 
     &_blocks{
         display: flex;
         align-items: center;
         flex-direction: column;
-        background-color:rgb(148, 70, 70);
+        justify-content: center;
         height: 442px;
         width: 303px;
+        border: solid;
+        border-width: 2px;
+        border-color: rgba(206, 206, 206, 0.356);
         
+        
+    }
+    &_line{
+        height: 4px;
+        width: 236px;
+        background-color: rgba(206, 206, 206, 0.356);
+        margin: 15px 0 15px 0
+    }
+    &_button{
+        @include button;
+        height: 44px;
+        width: 135px;
+        font-weight: 300;
+        font-size: 120%;
+
     }
 
 }

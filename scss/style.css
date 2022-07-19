@@ -360,10 +360,26 @@
   font-weight: 600;
   font-size: small;
   border-radius: 8px;
+  transition: all 0.1s;
+  background-color: #dd0000;
+  height: 32px;
+  width: 153px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: small;
+  border-radius: 8px;
   -webkit-transition: all 0.1s;
   transition: all 0.1s;
   height: 54px;
   width: 303px;
+  font-size: medium;
+}
+
+.consultation_button:hover {
+  background-color: #bb0000;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
 }
 
 .sell {
@@ -377,6 +393,12 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.sell_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .sell_block {
@@ -453,6 +475,29 @@
           transform: skewX(20deg);
 }
 
+.sell_block_price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sell_block_price_cost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sell_block_price_cost_nw {
+  color: aqua;
+}
+
 .sell_blocks {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -464,8 +509,37 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #944646;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 442px;
   width: 303px;
+  border: solid;
+  border-width: 2px;
+  border-color: rgba(206, 206, 206, 0.356);
+}
+
+.sell_line {
+  height: 4px;
+  width: 236px;
+  background-color: rgba(206, 206, 206, 0.356);
+  margin: 15px 0 15px 0;
+}
+
+.sell_button {
+  background-color: #dd0000;
+  height: 32px;
+  width: 153px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: small;
+  border-radius: 8px;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  height: 44px;
+  width: 135px;
+  font-weight: 300;
+  font-size: 120%;
 }
 /*# sourceMappingURL=style.css.map */
